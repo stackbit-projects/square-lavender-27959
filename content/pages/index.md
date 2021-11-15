@@ -94,7 +94,7 @@ sections:
         url: /images/isabelle-parks.jpg
     spacing: 1
     columns: 4
-    imageSizePx: 188
+    imageSizePx: 274
     showCaption: false
     enableHover: true
     styles:
