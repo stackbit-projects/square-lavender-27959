@@ -2,7 +2,7 @@
 title: Home
 layout: PageLayout
 sections:
-  - colors: colors-a
+  - colors: colors-e
     elementId: ''
     title: Our Customers
     subtitle: Check out some of the brands that are already trusting us
