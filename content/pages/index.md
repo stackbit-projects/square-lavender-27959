@@ -4,6 +4,65 @@ layout: PageLayout
 sections:
   - colors: colors-a
     elementId: ''
+    title: Our Customers
+    subtitle: Check out some of the brands that are already trusting us
+    images:
+      - type: ImageBlock
+        url: images/github.svg
+        altText: GitHub
+        caption: GitHub
+      - type: ImageBlock
+        url: images/netlify.svg
+        altText: Nelify logo
+        caption: Nelify
+      - type: ImageBlock
+        url: images/sticker-mule.svg
+        altText: Stickermule logo
+        caption: Stickermule
+      - type: ImageBlock
+        url: images/twilio.svg
+        altText: Twilio logo
+        caption: Twilio
+    spacing: 1
+    columns: 4
+    aspectRatio: auto
+    imageSizePx: 300
+    showCaption: false
+    enableHover: true
+    styles:
+      self:
+        width: full
+        height: auto
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-neutral
+      title:
+        fontWeight: 700
+        fontStyle: normal
+        textAlign: center
+        margin:
+          - mt-0
+          - mb-2
+      subtitle:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: center
+        margin:
+          - mt-0
+          - mb-12
+    type: MediaGallerySection
+  - colors: colors-a
+    elementId: ''
     title: Some photos
     subtitle: Aren't they lovely photos?
     images:
