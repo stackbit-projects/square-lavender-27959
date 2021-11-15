@@ -95,7 +95,7 @@ sections:
     spacing: 1
     columns: 4
     imageSizePx: 274
-    showCaption: false
+    showCaption: true
     enableHover: true
     styles:
       self:
